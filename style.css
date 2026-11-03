@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+ 
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ 
+ul {
+  list-style: none;
+}
+ 
+img {
+  display: block;
+  max-width: 100%;
+}
+ 
+
+header {
+  background-color: #fff;
+  padding: 15px 40px;
+}
+ 
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ 
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1.5px solid #000000;
+}
+ 
+.logo img {
+  width: 45px;
+}
+ 
+.logo h2 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+ 
+nav ul {
+  display: flex;
+  gap: 30px;
+}
+ 
+nav ul a:hover {
+  color: #8e44ad;
+}
+ 
+.droite {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+ 
+.panier {
+  background-color: #8e44ad;
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 8px;
+}
+ 
+.profil img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+ 
+
+main {
+  padding: 60px 40px;
+}
+ 
+h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+}
+ 
+
+section {
+  display: flex;
+  gap: 20px;
+}
+ 
+article {
+  flex: 1;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+ 
+article img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  transition: all 0.8s ease-in-out;
+}
+    
+article img:hover {
+  transform: scale(1.1);
+}
+ 
+article > div {
+  padding: 20px;
+}
+ 
+.titre {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+ 
+.titre h3 {
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+ 
+.titre span {
+  color: #8e44ad;
+  font-weight: 500;
+}
+ 
+article p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+ 
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #8e44ad;
+  color: #fff;
+  font-family: inherit;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+ 
+button:hover {
+  background-color: #dc0f0f;
+  transform: scale(0.97);
+  border: 4mm ridge #dc0f0f;
+  transition: all 1s ease;
+}
+
+
+footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
