@@ -1,4 +1,4 @@
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -42,7 +42,7 @@ nav {
   display: flex;
   align-items: center;
   gap: 10px;
-  border: 1.5px solid #000000;
+
 }
  
 .logo img {
@@ -74,6 +74,7 @@ nav ul a:hover {
   color: #fff;
   padding: 8px 18px;
   border-radius: 8px;
+
 }
  
 .profil img {
@@ -81,6 +82,7 @@ nav ul a:hover {
   height: 40px;
   border-radius: 50%;
   object-fit: cover;
+  border: 2px solid #000000;
 }
  
 
