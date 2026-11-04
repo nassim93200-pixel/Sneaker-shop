@@ -1,16 +1,16 @@
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: content-box;
 }
  
 body {
-  font-family: "Poppins", sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
   height: 100%;
   width: 100%;    
   margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
 }
  
 
@@ -187,7 +187,7 @@ footer {
    
    margin: 0;
 
-   width: 94.5vw;
+   width: 100vw;
    height: 70vh;
    background-image: url("assets/hero.jpg.png");
    background-size: cover;
@@ -195,4 +195,8 @@ footer {
    background-repeat: no-repeat;
    color:#a36dbc
    
+}
+ 
+.hero h1 {
+  margin-bottom: 0;
 }
